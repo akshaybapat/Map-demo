@@ -50,7 +50,7 @@ public class EventDetails extends ElementDetails{
 		this.eventTime= eventTime;
 	}
 	
-	public String getEvenDescription()
+	public String getEventDescription()
 	{
 		return eventDescription;
 	}

@@ -1,5 +1,5 @@
 package edu.sjsu.cmpe.users.config;
-
+/*
 import org.codehaus.jackson.map.SerializationConfig;
 
 import com.yammer.dropwizard.json.Json;
@@ -11,3 +11,5 @@ public CustomJson()
 			mapper.configure(SerializationConfig.Feature.WRITE_DATES_AS_TIMESTAMPS, false);
 	    }
 	}
+	
+*/

@@ -7,6 +7,7 @@ public class UserDetails extends ElementDetails
 	private String lastName;
 	private String sjsuId;
 	private String email;
+	private String phoneNumber;
 	
 	public String getPassword()
 	{
@@ -56,5 +57,15 @@ public class UserDetails extends ElementDetails
 	public void setEmail(String email)
 	{
 		this.email=email;
+	}
+	
+	public String getPhoneNumber()
+	{
+		return phoneNumber;
+	}
+	
+	public void setPhoneNumber(String phoneNumber)
+	{
+		this.phoneNumber=phoneNumber;
 	}
 }

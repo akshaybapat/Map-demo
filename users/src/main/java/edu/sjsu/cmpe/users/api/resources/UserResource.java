@@ -1,7 +1,9 @@
 package edu.sjsu.cmpe.users.api.resources;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.UnknownHostException;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
@@ -15,9 +17,14 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+
+import org.jongo.Find;
+
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
+import com.mongodb.DBObject;
+import com.mongodb.Mongo;
 //import com.yammer.dropwizard.jersey.params.IntParam;
 import com.yammer.metrics.annotation.Timed;
 
@@ -26,113 +33,84 @@ import edu.sjsu.cmpe.users.dao.MongoDao;
 import edu.sjsu.cmpe.users.domain.UserDetails;
 import edu.sjsu.cmpe.users.domain.EventDetails;
 
-@Path("/v1/")
+@Path("/v1")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 
 public class UserResource {
 	private int authenticated = 400;
+	MongoDao client;
+	DBCursor cursor;
 	
-	public UserResource()
+	public UserResource() throws UnknownHostException
 	{
-	}
-	
-	@POST
-	@Path("/users/create")
-	@Timed(name="create-user")
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	public Response user(UserDetails user) throws FileNotFoundException, IOException
-	{
-		MongoConfig connection = new MongoConfig();
-		MongoDao client = new MongoDao();
-		client.getDBConnection(connection.dbHostName, connection.dbPortNumber);
-		client.getDB(connection.dbName);
-		client.getCollection("usercollection");
+		client = new MongoDao();
 		
-		BasicDBObject doc = new BasicDBObject("sjsuId", user.getSjsuId()).append("firstname", user.getFirstName()).append("lastname", user.getLastName()).append("email", user.getEmail()).append("password", user.getPassword());
-		client.insertData(doc);
-		client.closeConnection();
-
-		return Response.status(201).entity(user).build();
 	}
 	
+
+	@Path("/users")
+    @GET
+    public Response getAllUsers() throws Exception
+   {
+	
+		Iterable<UserDetails> userDetails = null;
+      	userDetails = client.find("usercollection").as(UserDetails.class);
+		return Response.status(200).entity(userDetails).build();
+		
+	    
+   }
+   
+ 
+	@Path("/users")
 	@POST
-	@Path("/users/authenticate")
-	@Timed(name="authenticate-user")
+	public Response createUser(UserDetails user) throws FileNotFoundException, IOException 
+	{
+
+		client.saveData("usercollection", user);
+        return Response.status(201).build();
+	}
+	
+	
+	@POST
+	@Path("users/authenticate")
 	public Response authenticateUser(UserDetails user) throws FileNotFoundException, IOException
 	{
-		MongoConfig connection = new MongoConfig();
-		MongoDao client = new MongoDao();
-		client.getDBConnection(connection.dbHostName, connection.dbPortNumber);
-		client.getDB(connection.dbName);
-		client.getCollection("userCollection");
-		
-		BasicDBObject authenticate = new BasicDBObject();
-		List <BasicDBObject> authList = new ArrayList <BasicDBObject>();
-		authList.add(new BasicDBObject("email", user.getEmail()));
-		authList.add(new BasicDBObject("password", user.getPassword()));
-		authenticate.put("$and", authList);
-		
-		DBCursor cursor = client.findData(authenticate);
-		while(cursor.hasNext())
-		{
-			System.out.println(cursor.hasNext());
-			authenticated =200;
-		}
-		return null;
+		BasicDBObject query = new BasicDBObject();
+        List<BasicDBObject> queryList = new ArrayList<BasicDBObject>();
+        queryList.add(new BasicDBObject("username", user.getSjsuId()));
+        queryList.add(new BasicDBObject("password", user.getPassword()));
+        query.put("$and", queryList);
+        Find result = client.findData("usercollection", query.toString());
+        if(!(result.toString()==null)) authenticated = 200;
+		return Response.status(authenticated).build();
 	}
 	
-	@POST
-	@Path("/events/create")
-	@Timed(name="create-event")
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	public Response event(EventDetails event) throws FileNotFoundException, IOException 
-	{
-		MongoConfig connection = new MongoConfig();
-		MongoDao client = new MongoDao();
-		client.getDBConnection(connection.dbHostName, connection.dbPortNumber);
-		client.getDB(connection.dbName);
-		client.getCollection("eventcollection");
-		
-		BasicDBObject doc = new BasicDBObject("eventId", event.getEventId()).append("eventName", event.getEventName()).append("eventCategory", event.getEventCategory()).append("eventDescription", event.getEvenDescription()).append("eventDate", event.getEventDate()).append("eventTime", event.getEventTime());
-		
-		client.closeConnection();
-
-		return Response.status(201).entity(event).build();
-	}
 	
-	@GET
-	@Path("/users")
-	@Timed(name="get-all-users")
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	public DBCollection getAllUsers() throws FileNotFoundException, IOException
-	{
-		MongoConfig connection = new MongoConfig();
-		MongoDao client = new MongoDao();
-		client.getDBConnection(connection.dbHostName, connection.dbPortNumber);
-		client.getDB(connection.dbName);
-		client.getCollection("userCollection");
-		
-		return client.getCollection("usercollection");
-	}
 	
-	@GET
 	@Path("/events")
-	@Timed(name="get-all-events")
-	@Produces(MediaType.APPLICATION_JSON)
-	@Consumes(MediaType.APPLICATION_JSON)
-	public DBCollection getAllEvents() throws FileNotFoundException, IOException
-	{
-		MongoConfig connection = new MongoConfig();
-		MongoDao client = new MongoDao();
-		client.getDBConnection(connection.dbHostName, connection.dbPortNumber);
-		client.getDB(connection.dbName);
-		client.getCollection("eventCollection");
+    @GET
+    @Timed(name="get-all-events")
+    public Response getAllEvents() throws Exception
+   {
+	
+		Iterable<EventDetails> eventDetails = null;
+      	eventDetails = client.find("eventcollection").as(EventDetails.class);
+		return Response.status(200).entity(eventDetails).build();
 		
-		return client.getCollection("eventcollection");
-	}
+	    
+   }
+   
+ 
+	@Path("/events")
+	@POST
+	@Timed(name="create-event")
+	public Response CreateEvent(EventDetails event) throws FileNotFoundException, IOException 
+	{
 
+		client.saveData("eventcollection", event);
+        return Response.status(201).build();
+	}
+	
 }
+ 

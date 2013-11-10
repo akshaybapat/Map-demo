@@ -1478,3 +1478,261 @@ INFO  [2013-10-26 20:29:28,702] com.yammer.dropwizard.config.Environment:
 
 INFO  [2013-10-26 20:29:29,183] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
 INFO  [2013-10-26 20:29:29,188] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-11-08 20:00:03,419] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-08 20:00:03,476] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-11-08 20:00:03,476] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-11-08 20:00:03,575] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-11-08 20:00:03,632] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-11-08 20:00:03,853] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-08 20:00:03,854] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-11-08 20:05:18,462] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-08 20:05:18,519] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-11-08 20:05:18,519] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-11-08 20:05:18,623] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-11-08 20:05:18,680] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    GET     /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+ERROR [2013-11-08 20:05:18,894] com.sun.jersey.spi.inject.Errors: The following errors and warnings have been detected with resource and/or provider classes:
+  SEVERE: Consuming media type conflict. The resource methods public javax.ws.rs.core.Response edu.sjsu.cmpe.users.api.resources.UserResource.user(edu.sjsu.cmpe.users.domain.UserDetails) throws java.io.FileNotFoundException,java.io.IOException and public javax.ws.rs.core.Response edu.sjsu.cmpe.users.api.resources.UserResource.event(edu.sjsu.cmpe.users.domain.EventDetails) throws java.io.FileNotFoundException,java.io.IOException can consume the same media type
+WARN  [2013-11-08 20:05:18,894] /: unavailable
+! com.sun.jersey.spi.inject.Errors$ErrorMessagesException
+! 	at com.sun.jersey.spi.inject.Errors.processErrorMessages(Errors.java:170)
+! 	at com.sun.jersey.spi.inject.Errors.postProcess(Errors.java:136)
+! 	at com.sun.jersey.spi.inject.Errors.processWithErrors(Errors.java:199)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:773)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:768)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.initiate(ServletContainer.java:488)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer$InternalWebComponent.initiate(ServletContainer.java:318)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.load(WebComponent.java:607)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:208)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:373)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:556)
+! 	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+! 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:492)
+! 	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:312)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:777)
+! 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:258)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:699)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:224)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:263)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+INFO  [2013-11-08 20:05:18,905] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-08 20:05:18,907] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-11-08 20:06:57,031] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-08 20:06:57,088] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-11-08 20:06:57,088] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-11-08 20:06:57,187] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-11-08 20:06:57,242] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+WARN  [2013-11-08 20:06:57,460] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED InstrumentedBlockingChannelConnector@0.0.0.0:8080: java.net.BindException: Address already in use: bind
+! java.net.BindException: Address already in use: bind
+! 	at sun.nio.ch.Net.bind0(Native Method)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.open(BlockingChannelConnector.java:122)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.doStart(BlockingChannelConnector.java:80)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+WARN  [2013-11-08 20:06:57,461] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED SocketConnector@0.0.0.0:8081: java.net.BindException: Address already in use: JVM_Bind
+! java.net.BindException: Address already in use: JVM_Bind
+! 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+! 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+! 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+! 	at java.net.PlainSocketImpl.bind(Unknown Source)
+! 	at java.net.ServerSocket.bind(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.newServerSocket(SocketConnector.java:91)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.open(SocketConnector.java:80)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.doStart(SocketConnector.java:151)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+WARN  [2013-11-08 20:06:57,462] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED org.eclipse.jetty.server.Server@3d661b61: MultiException[java.net.BindException: Address already in use: bind, java.net.BindException: Address already in use: JVM_Bind]
+! MultiException[java.net.BindException: Address already in use: bind, java.net.BindException: Address already in use: JVM_Bind]
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:256)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+! java.net.BindException: Address already in use: bind
+! 	at sun.nio.ch.Net.bind0(Native Method)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.open(BlockingChannelConnector.java:122)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.doStart(BlockingChannelConnector.java:80)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+! java.net.BindException: Address already in use: JVM_Bind
+! 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+! 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+! 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+! 	at java.net.PlainSocketImpl.bind(Unknown Source)
+! 	at java.net.ServerSocket.bind(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.newServerSocket(SocketConnector.java:91)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.open(SocketConnector.java:80)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.doStart(SocketConnector.java:151)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+ERROR [2013-11-08 20:06:57,462] com.yammer.dropwizard.cli.ServerCommand: Unable to start server, shutting down
+! MultiException[java.net.BindException: Address already in use: bind, java.net.BindException: Address already in use: JVM_Bind]
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:256)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+! java.net.BindException: Address already in use: bind
+! 	at sun.nio.ch.Net.bind0(Native Method)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.open(BlockingChannelConnector.java:122)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.doStart(BlockingChannelConnector.java:80)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+! java.net.BindException: Address already in use: JVM_Bind
+! 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+! 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+! 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+! 	at java.net.PlainSocketImpl.bind(Unknown Source)
+! 	at java.net.ServerSocket.bind(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.newServerSocket(SocketConnector.java:91)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.open(SocketConnector.java:80)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.doStart(SocketConnector.java:151)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+INFO  [2013-11-08 20:06:57,462] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-11-08 20:06:57,462] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-08 20:06:57,463] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-11-08 20:06:57,463] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,file:/C:/Users/Default%20User.alienware-m17x/Project273/users/target/classes/}
+INFO  [2013-11-08 20:06:59,464] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,file:/C:/Users/Default%20User.alienware-m17x/Project273/users/target/classes/}
+INFO  [2013-11-08 20:06:59,464] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+WARN  [2013-11-08 20:07:14,191] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-08 20:07:14,247] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-11-08 20:07:14,247] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-11-08 20:07:14,343] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-11-08 20:07:14,401] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-11-08 20:07:14,615] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-08 20:07:14,616] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
