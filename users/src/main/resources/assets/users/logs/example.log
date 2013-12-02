@@ -1,0 +1,1738 @@
+WARN  [2013-10-10 21:07:42,183] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-10 21:07:42,324] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-10 21:07:42,324] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-10 21:07:42,686] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-10 21:07:42,783] com.yammer.dropwizard.config.Environment: 
+
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-10 21:07:43,291] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-10 21:07:43,296] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-10 21:17:44,569] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-10 21:17:44,678] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-10 21:17:44,678] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-10 21:17:44,886] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-10 21:17:44,982] com.yammer.dropwizard.config.Environment: 
+
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-10 21:17:45,408] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-10 21:17:45,411] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-10 21:20:19,179] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-10 21:20:19,291] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-10 21:20:19,292] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-10 21:20:19,502] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-10 21:20:19,593] com.yammer.dropwizard.config.Environment: 
+
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-10 21:20:20,031] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-10 21:20:20,033] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-10 23:23:29,670] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-10 23:23:30,052] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-10 23:23:30,052] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-10 23:23:30,403] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-10 23:23:30,521] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-10 23:23:31,047] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-10 23:23:31,051] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-10 23:24:58,753] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 08725cf54993f801
+! java.lang.IllegalStateException: value is absent
+! 	at com.google.common.base.Optional$Absent.get(Optional.java:263)
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:79)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+ERROR [2013-10-10 23:25:17,371] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: a86c32fc0c58e344
+! java.lang.IllegalStateException: value is absent
+! 	at com.google.common.base.Optional$Absent.get(Optional.java:263)
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:79)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+ERROR [2013-10-10 23:25:28,838] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 95c24ab712b4e692
+! java.lang.IllegalStateException: value is absent
+! 	at com.google.common.base.Optional$Absent.get(Optional.java:263)
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:79)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-10 23:26:32,499] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-10 23:26:32,566] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-10 23:26:32,566] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-10 23:26:32,695] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-10 23:26:32,777] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-10 23:26:33,054] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-10 23:26:33,056] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-10 23:26:50,973] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-10 23:26:51,039] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-10 23:26:51,039] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-10 23:26:51,160] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-10 23:26:51,238] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-10 23:26:51,502] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-10 23:26:51,503] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-10 23:28:24,347] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 4b1b89471187332b
+! java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Float
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:79)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-10 23:45:48,283] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-10 23:45:48,348] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-10 23:45:48,348] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-10 23:45:48,471] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-10 23:45:48,542] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-10 23:45:48,827] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-10 23:45:48,829] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-10 23:48:09,406] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 3d3e7d627dd67448
+! org.codehaus.jackson.JsonParseException: Unexpected character ('=' (code 61)): was expecting a colon to separate field name and value
+!  at [Source: org.eclipse.jetty.server.HttpInput@6d112ca9; line: 4, column: 13]
+! 	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+! 	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+! 	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+! 	at org.codehaus.jackson.impl.Utf8StreamParser.nextToken(Utf8StreamParser.java:500)
+! 	at org.codehaus.jackson.map.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:690)
+! 	at org.codehaus.jackson.map.deser.BeanDeserializer.deserialize(BeanDeserializer.java:580)
+! 	at org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2732)
+! 	at org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1923)
+! 	at com.yammer.dropwizard.json.Json.readValue(Json.java:334)
+! 	at com.yammer.dropwizard.jersey.JacksonMessageBodyProvider.readFrom(JacksonMessageBodyProvider.java:79)
+! 	at com.sun.jersey.spi.container.ContainerRequest.getEntity(ContainerRequest.java:474)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.EntityParamDispatchProvider$EntityInjectable.getValue(EntityParamDispatchProvider.java:123)
+! 	at com.sun.jersey.server.impl.inject.InjectableValuesProvider.getInjectableValues(InjectableValuesProvider.java:46)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$EntityParamInInvoker.getParams(AbstractResourceMethodDispatchProvider.java:153)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:203)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:900)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:954)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:857)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+ERROR [2013-10-10 23:48:57,685] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: b289a11b281e0a2b
+! org.codehaus.jackson.map.JsonMappingException: Can not construct instance of float from String value '`100': not a valid Float value
+!  at [Source: org.eclipse.jetty.server.HttpInput@6d112ca9; line: 3, column: 18] (through reference chain: edu.sjsu.cmpe.users.domain.UserDetails["longitude"])
+! 	at org.codehaus.jackson.map.JsonMappingException.from(JsonMappingException.java:163)
+! 	at org.codehaus.jackson.map.deser.StdDeserializationContext.weirdStringException(StdDeserializationContext.java:243)
+! 	at org.codehaus.jackson.map.deser.std.StdDeserializer._parseFloat(StdDeserializer.java:417)
+! 	at org.codehaus.jackson.map.deser.std.StdDeserializer$FloatDeserializer.deserialize(StdDeserializer.java:865)
+! 	at org.codehaus.jackson.map.deser.std.StdDeserializer$FloatDeserializer.deserialize(StdDeserializer.java:849)
+! 	at org.codehaus.jackson.map.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:299)
+! 	at org.codehaus.jackson.map.deser.SettableBeanProperty$MethodProperty.deserializeAndSet(SettableBeanProperty.java:414)
+! 	at org.codehaus.jackson.map.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:697)
+! 	at org.codehaus.jackson.map.deser.BeanDeserializer.deserialize(BeanDeserializer.java:580)
+! 	at org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2732)
+! 	at org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1923)
+! 	at com.yammer.dropwizard.json.Json.readValue(Json.java:334)
+! 	at com.yammer.dropwizard.jersey.JacksonMessageBodyProvider.readFrom(JacksonMessageBodyProvider.java:79)
+! 	at com.sun.jersey.spi.container.ContainerRequest.getEntity(ContainerRequest.java:474)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.EntityParamDispatchProvider$EntityInjectable.getValue(EntityParamDispatchProvider.java:123)
+! 	at com.sun.jersey.server.impl.inject.InjectableValuesProvider.getInjectableValues(InjectableValuesProvider.java:46)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$EntityParamInInvoker.getParams(AbstractResourceMethodDispatchProvider.java:153)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:203)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:900)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:954)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:857)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+ERROR [2013-10-10 23:49:24,459] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 16b8b327a73534c4
+! org.codehaus.jackson.map.JsonMappingException: Can not construct instance of float from String value '`100.002': not a valid Float value
+!  at [Source: org.eclipse.jetty.server.HttpInput@6d112ca9; line: 3, column: 22] (through reference chain: edu.sjsu.cmpe.users.domain.UserDetails["longitude"])
+! 	at org.codehaus.jackson.map.JsonMappingException.from(JsonMappingException.java:163)
+! 	at org.codehaus.jackson.map.deser.StdDeserializationContext.weirdStringException(StdDeserializationContext.java:243)
+! 	at org.codehaus.jackson.map.deser.std.StdDeserializer._parseFloat(StdDeserializer.java:417)
+! 	at org.codehaus.jackson.map.deser.std.StdDeserializer$FloatDeserializer.deserialize(StdDeserializer.java:865)
+! 	at org.codehaus.jackson.map.deser.std.StdDeserializer$FloatDeserializer.deserialize(StdDeserializer.java:849)
+! 	at org.codehaus.jackson.map.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:299)
+! 	at org.codehaus.jackson.map.deser.SettableBeanProperty$MethodProperty.deserializeAndSet(SettableBeanProperty.java:414)
+! 	at org.codehaus.jackson.map.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:697)
+! 	at org.codehaus.jackson.map.deser.BeanDeserializer.deserialize(BeanDeserializer.java:580)
+! 	at org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2732)
+! 	at org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1923)
+! 	at com.yammer.dropwizard.json.Json.readValue(Json.java:334)
+! 	at com.yammer.dropwizard.jersey.JacksonMessageBodyProvider.readFrom(JacksonMessageBodyProvider.java:79)
+! 	at com.sun.jersey.spi.container.ContainerRequest.getEntity(ContainerRequest.java:474)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.EntityParamDispatchProvider$EntityInjectable.getValue(EntityParamDispatchProvider.java:123)
+! 	at com.sun.jersey.server.impl.inject.InjectableValuesProvider.getInjectableValues(InjectableValuesProvider.java:46)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$EntityParamInInvoker.getParams(AbstractResourceMethodDispatchProvider.java:153)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:203)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:900)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:954)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:857)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+ERROR [2013-10-10 23:51:18,131] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: bcad909784495b18
+! org.codehaus.jackson.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate OBJECT entries
+!  at [Source: org.eclipse.jetty.server.HttpInput@6d112ca9; line: 4, column: 2]
+! 	at org.codehaus.jackson.JsonParser._constructError(JsonParser.java:1432)
+! 	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportError(JsonParserMinimalBase.java:521)
+! 	at org.codehaus.jackson.impl.JsonParserMinimalBase._reportUnexpectedChar(JsonParserMinimalBase.java:442)
+! 	at org.codehaus.jackson.impl.Utf8StreamParser.nextToken(Utf8StreamParser.java:482)
+! 	at org.codehaus.jackson.map.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:690)
+! 	at org.codehaus.jackson.map.deser.BeanDeserializer.deserialize(BeanDeserializer.java:580)
+! 	at org.codehaus.jackson.map.ObjectMapper._readMapAndClose(ObjectMapper.java:2732)
+! 	at org.codehaus.jackson.map.ObjectMapper.readValue(ObjectMapper.java:1923)
+! 	at com.yammer.dropwizard.json.Json.readValue(Json.java:334)
+! 	at com.yammer.dropwizard.jersey.JacksonMessageBodyProvider.readFrom(JacksonMessageBodyProvider.java:79)
+! 	at com.sun.jersey.spi.container.ContainerRequest.getEntity(ContainerRequest.java:474)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.EntityParamDispatchProvider$EntityInjectable.getValue(EntityParamDispatchProvider.java:123)
+! 	at com.sun.jersey.server.impl.inject.InjectableValuesProvider.getInjectableValues(InjectableValuesProvider.java:46)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$EntityParamInInvoker.getParams(AbstractResourceMethodDispatchProvider.java:153)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$ResponseOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:203)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:900)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:954)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:857)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-11 02:53:49,793] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-11 02:53:49,861] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-11 02:53:49,861] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-11 02:53:49,994] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-11 02:53:50,066] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-11 02:53:50,375] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-11 02:53:50,377] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-11 02:56:36,140] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-11 02:56:36,205] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-11 02:56:36,205] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-11 02:56:36,322] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-11 02:56:36,396] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-11 02:56:36,666] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-11 02:56:36,668] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-11 02:58:11,350] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-11 02:58:11,413] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-11 02:58:11,413] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-11 02:58:11,543] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-11 02:58:11,613] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-11 02:58:11,885] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-11 02:58:11,886] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-11 03:00:37,827] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-11 03:00:37,891] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-11 03:00:37,891] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-11 03:00:38,021] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-11 03:00:38,086] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-11 03:00:38,353] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-11 03:00:38,354] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-11 03:01:12,642] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-11 03:01:12,705] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-11 03:01:12,705] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-11 03:01:12,820] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-11 03:01:12,891] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-11 03:01:13,164] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-11 03:01:13,166] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-15 08:13:20,921] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 08:13:21,303] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 08:13:21,303] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 08:13:21,851] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 08:13:21,967] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 08:13:22,525] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 08:13:22,527] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-15 08:16:56,287] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 33ba361a7bf0397a
+! java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Float
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:79)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-15 08:27:43,687] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 08:27:43,764] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 08:27:43,765] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 08:27:43,959] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 08:27:44,078] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 08:27:44,375] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 08:27:44,377] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-15 08:35:25,261] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 08:35:25,330] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 08:35:25,330] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 08:35:25,509] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 08:35:25,626] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 08:35:25,920] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 08:35:25,922] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-15 08:36:33,365] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 961dab3b46cd79dc
+! java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Float
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:79)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-15 19:51:22,213] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 19:51:22,638] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 19:51:22,639] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 19:51:22,923] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 19:51:23,019] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 19:51:23,512] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 19:51:23,514] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-15 19:53:26,903] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: f350e7c27fc1c0e9
+! java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Float
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:86)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-15 19:54:55,159] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 19:54:55,226] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 19:54:55,226] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 19:54:55,378] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 19:54:55,499] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 19:54:55,833] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 19:54:55,834] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-15 19:55:52,689] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 3cb227ea66652406
+! java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Float
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:86)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-15 21:00:04,258] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:00:04,417] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:00:04,417] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:00:04,705] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:00:04,809] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:00:05,499] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:00:05,502] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-15 21:02:32,073] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:02:32,142] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:02:32,142] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:02:32,345] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:02:32,440] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:02:32,738] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:02:32,740] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-15 21:03:37,479] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:03:37,551] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:03:37,551] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:03:37,676] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:03:37,796] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:03:38,156] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:03:38,158] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-15 21:05:02,865] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:05:02,941] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:05:02,941] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:05:03,061] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:05:03,169] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:05:03,548] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:05:03,550] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-15 21:09:23,565] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: d847ced8e745bfe2
+! java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Float
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:87)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-15 21:17:37,759] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:17:37,831] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:17:37,831] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:17:37,967] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:17:38,090] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:17:38,429] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:17:38,431] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-15 21:18:38,008] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: d645b0900c438b14
+! java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Float
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:95)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-15 21:20:22,420] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:20:22,501] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:20:22,501] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:20:22,637] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:20:22,777] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:20:23,115] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:20:23,117] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+ERROR [2013-10-15 21:21:28,986] com.yammer.dropwizard.jersey.LoggingExceptionMapper: Error handling a request: 2c8c9a1529a43219
+! java.lang.IllegalStateException: value is absent
+! 	at com.google.common.base.Optional$Absent.get(Optional.java:263)
+! 	at edu.sjsu.cmpe.users.api.resources.UserResource.getEvent(UserResource.java:93)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+! 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+! 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+! 	at java.lang.reflect.Method.invoke(Method.java:606)
+! 	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+! 	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+! 	at com.yammer.metrics.jersey.InstrumentedResourceMethodDispatchProvider$TimedRequestDispatcher.dispatch(InstrumentedResourceMethodDispatchProvider.java:34)
+! 	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:288)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+! 	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+! 	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1483)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1414)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1363)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1353)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:414)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:537)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:708)
+! 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+! 	at com.yammer.dropwizard.jetty.NonblockingServletHolder.handle(NonblockingServletHolder.java:47)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1366)
+! 	at com.yammer.dropwizard.servlets.ThreadNameFilter.doFilter(ThreadNameFilter.java:29)
+! 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1337)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:484)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1065)
+! 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:413)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:999)
+! 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:117)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at com.yammer.metrics.jetty.InstrumentedHandler.handle(InstrumentedHandler.java:200)
+! 	at org.eclipse.jetty.server.handler.GzipHandler.handle(GzipHandler.java:230)
+! 	at com.yammer.dropwizard.jetty.BiDiGzipHandler.handle(BiDiGzipHandler.java:123)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:149)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:111)
+! 	at org.eclipse.jetty.server.Server.handle(Server.java:351)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:454)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:47)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:890)
+! 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:944)
+! 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:634)
+! 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:230)
+! 	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:66)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector$BlockingChannelEndPoint.run(BlockingChannelConnector.java:293)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:599)
+! 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:534)
+! 	at java.lang.Thread.run(Thread.java:724)
+WARN  [2013-10-15 21:24:48,395] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:24:48,468] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:24:48,468] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:24:48,606] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:24:48,746] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:24:49,075] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:24:49,077] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-15 21:31:31,281] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:31:31,354] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:31:31,355] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:31:31,485] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:31:31,562] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:31:31,938] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:31:31,939] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-15 21:35:06,149] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-15 21:35:06,218] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-15 21:35:06,219] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-15 21:35:06,345] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-15 21:35:06,483] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-15 21:35:06,806] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-15 21:35:06,807] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-17 06:49:04,600] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-17 06:49:04,746] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-17 06:49:04,746] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-17 06:49:04,931] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-17 06:49:05,023] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-17 06:49:05,349] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-17 06:49:05,352] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-18 03:17:26,062] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-18 03:17:26,191] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-18 03:17:26,191] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-18 03:17:26,333] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-18 03:17:26,424] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-18 03:17:26,775] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-18 03:17:26,779] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-18 03:20:18,459] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-18 03:20:18,522] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-18 03:20:18,522] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-18 03:20:18,646] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-18 03:20:18,717] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-18 03:20:18,981] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-18 03:20:18,982] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-18 03:22:12,123] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-18 03:22:12,184] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-18 03:22:12,184] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-18 03:22:12,297] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-18 03:22:12,371] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-18 03:22:12,635] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-18 03:22:12,637] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-18 03:33:17,867] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-18 03:33:17,949] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-18 03:33:17,949] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-18 03:33:18,086] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-18 03:33:18,174] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-18 03:33:18,432] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-18 03:33:18,433] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-10-26 20:29:28,046] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-10-26 20:29:28,237] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-10-26 20:29:28,237] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-10-26 20:29:28,539] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-10-26 20:29:28,702] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-10-26 20:29:29,183] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-10-26 20:29:29,188] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-11-08 20:00:03,419] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-08 20:00:03,476] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-11-08 20:00:03,476] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-11-08 20:00:03,575] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-11-08 20:00:03,632] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    GET     /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1/ (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-11-08 20:00:03,853] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-08 20:00:03,854] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-11-08 20:05:18,462] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-08 20:05:18,519] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-11-08 20:05:18,519] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-11-08 20:05:18,623] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-11-08 20:05:18,680] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    GET     /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+ERROR [2013-11-08 20:05:18,894] com.sun.jersey.spi.inject.Errors: The following errors and warnings have been detected with resource and/or provider classes:
+  SEVERE: Consuming media type conflict. The resource methods public javax.ws.rs.core.Response edu.sjsu.cmpe.users.api.resources.UserResource.user(edu.sjsu.cmpe.users.domain.UserDetails) throws java.io.FileNotFoundException,java.io.IOException and public javax.ws.rs.core.Response edu.sjsu.cmpe.users.api.resources.UserResource.event(edu.sjsu.cmpe.users.domain.EventDetails) throws java.io.FileNotFoundException,java.io.IOException can consume the same media type
+WARN  [2013-11-08 20:05:18,894] /: unavailable
+! com.sun.jersey.spi.inject.Errors$ErrorMessagesException
+! 	at com.sun.jersey.spi.inject.Errors.processErrorMessages(Errors.java:170)
+! 	at com.sun.jersey.spi.inject.Errors.postProcess(Errors.java:136)
+! 	at com.sun.jersey.spi.inject.Errors.processWithErrors(Errors.java:199)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:773)
+! 	at com.sun.jersey.server.impl.application.WebApplicationImpl.initiate(WebApplicationImpl.java:768)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.initiate(ServletContainer.java:488)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer$InternalWebComponent.initiate(ServletContainer.java:318)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.load(WebComponent.java:607)
+! 	at com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:208)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:373)
+! 	at com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:556)
+! 	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+! 	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:492)
+! 	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:312)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:777)
+! 	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:258)
+! 	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:699)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.handler.HandlerCollection.doStart(HandlerCollection.java:224)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:263)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+INFO  [2013-11-08 20:05:18,905] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-08 20:05:18,907] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081
+WARN  [2013-11-08 20:06:57,031] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-08 20:06:57,088] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-11-08 20:06:57,088] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-11-08 20:06:57,187] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-11-08 20:06:57,242] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+WARN  [2013-11-08 20:06:57,460] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED InstrumentedBlockingChannelConnector@0.0.0.0:8080: java.net.BindException: Address already in use: bind
+! java.net.BindException: Address already in use: bind
+! 	at sun.nio.ch.Net.bind0(Native Method)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.open(BlockingChannelConnector.java:122)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.doStart(BlockingChannelConnector.java:80)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+WARN  [2013-11-08 20:06:57,461] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED SocketConnector@0.0.0.0:8081: java.net.BindException: Address already in use: JVM_Bind
+! java.net.BindException: Address already in use: JVM_Bind
+! 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+! 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+! 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+! 	at java.net.PlainSocketImpl.bind(Unknown Source)
+! 	at java.net.ServerSocket.bind(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.newServerSocket(SocketConnector.java:91)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.open(SocketConnector.java:80)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.doStart(SocketConnector.java:151)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+WARN  [2013-11-08 20:06:57,462] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED org.eclipse.jetty.server.Server@3d661b61: MultiException[java.net.BindException: Address already in use: bind, java.net.BindException: Address already in use: JVM_Bind]
+! MultiException[java.net.BindException: Address already in use: bind, java.net.BindException: Address already in use: JVM_Bind]
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:256)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+! java.net.BindException: Address already in use: bind
+! 	at sun.nio.ch.Net.bind0(Native Method)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.open(BlockingChannelConnector.java:122)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.doStart(BlockingChannelConnector.java:80)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+! java.net.BindException: Address already in use: JVM_Bind
+! 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+! 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+! 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+! 	at java.net.PlainSocketImpl.bind(Unknown Source)
+! 	at java.net.ServerSocket.bind(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.newServerSocket(SocketConnector.java:91)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.open(SocketConnector.java:80)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.doStart(SocketConnector.java:151)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+ERROR [2013-11-08 20:06:57,462] com.yammer.dropwizard.cli.ServerCommand: Unable to start server, shutting down
+! MultiException[java.net.BindException: Address already in use: bind, java.net.BindException: Address already in use: JVM_Bind]
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:256)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+! java.net.BindException: Address already in use: bind
+! 	at sun.nio.ch.Net.bind0(Native Method)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.Net.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+! 	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.open(BlockingChannelConnector.java:122)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.nio.BlockingChannelConnector.doStart(BlockingChannelConnector.java:80)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+! java.net.BindException: Address already in use: JVM_Bind
+! 	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+! 	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+! 	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+! 	at java.net.PlainSocketImpl.bind(Unknown Source)
+! 	at java.net.ServerSocket.bind(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at java.net.ServerSocket.<init>(Unknown Source)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.newServerSocket(SocketConnector.java:91)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.open(SocketConnector.java:80)
+! 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:311)
+! 	at org.eclipse.jetty.server.bio.SocketConnector.doStart(SocketConnector.java:151)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at org.eclipse.jetty.server.Server.doStart(Server.java:274)
+! 	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+! 	at com.yammer.dropwizard.cli.ServerCommand.run(ServerCommand.java:54)
+! 	at com.yammer.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:71)
+! 	at com.yammer.dropwizard.cli.Command.run(Command.java:113)
+! 	at com.yammer.dropwizard.AbstractService.run(AbstractService.java:178)
+! 	at edu.sjsu.cmpe.users.UsersService.main(UsersService.java:16)
+INFO  [2013-11-08 20:06:57,462] org.eclipse.jetty.server.Server: Graceful shutdown SocketConnector@0.0.0.0:8081
+INFO  [2013-11-08 20:06:57,462] org.eclipse.jetty.server.Server: Graceful shutdown InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-08 20:06:57,463] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,null}
+INFO  [2013-11-08 20:06:57,463] org.eclipse.jetty.server.Server: Graceful shutdown o.e.j.s.ServletContextHandler{/,file:/C:/Users/Default%20User.alienware-m17x/Project273/users/target/classes/}
+INFO  [2013-11-08 20:06:59,464] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,file:/C:/Users/Default%20User.alienware-m17x/Project273/users/target/classes/}
+INFO  [2013-11-08 20:06:59,464] org.eclipse.jetty.server.handler.ContextHandler: stopped o.e.j.s.ServletContextHandler{/,null}
+WARN  [2013-11-08 20:07:14,191] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2013-11-08 20:07:14,247] com.yammer.dropwizard.cli.ServerCommand: Starting users
+INFO  [2013-11-08 20:07:14,247] org.eclipse.jetty.server.Server: jetty-8.1.2.v20120308
+INFO  [2013-11-08 20:07:14,343] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.12 02/15/2012 04:51 PM'
+INFO  [2013-11-08 20:07:14,401] com.yammer.dropwizard.config.Environment: 
+
+    GET     /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+    POST    /v1 (edu.sjsu.cmpe.users.api.resources.UserResource)
+
+INFO  [2013-11-08 20:07:14,615] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:8080
+INFO  [2013-11-08 20:07:14,616] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:8081

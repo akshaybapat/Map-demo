@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>San Jose Neighbourhood</title>
+    <link href="/maps/documentation/javascript/examples/default.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <style> 
+	body { background:#fff;}
+     #map-canvas
+	{
+	position:absolute;
+    	width:800px;
+        height:600px;
+        z-index:15;
+        top:85%;
+        left:50%;
+        margin:-400px 0 0 -400px;
+	}
+    </style>
+    <script>
+		(function() {
+				window.onload = function() {
+						// Creating an object literal containing the properties
+						// we want to pass to the map
+						var options = {
+						zoom: 16,
+						center: new google.maps.LatLng(37.3356, -121.8811),
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+						};
+				// Creating the map
+				var map = new google.maps.Map(document.getElementById('map-canvas'), options);
+				
+			var mkr = new google.maps.Marker({
+    			position: map.getCenter(),
+     			map: map,
+    			 title: 'Click to zoom'
+			 });
+
+			google.maps.event.addListener(map, 'center_changed', function() {
+    			// 3 seconds after the center of the map has changed, pan back to the
+    			// marker.
+  			window.setTimeout(function() {
+  			map.panTo(mkr.getPosition());
+    			}, 3000);
+   			});
+
+
+					var places = [];
+					places.push(new google.maps.LatLng(37.337186,-121.881493));
+					places.push(new google.maps.LatLng(37.335462,-121.884969));
+					places.push(new google.maps.LatLng(37.334268,-121.883982));
+					// Looping through the places array
+					
+					var events = [];
+					events.push("Engineering Department Coding Battle");
+					events.push("MLK Book Exhibition");
+					events.push("Science of Spartans Quiz");
+					
+					 var people= [];
+					 people.push(new google.maps.LatLng(37.336186,-121.883493));
+					 people.push(new google.maps.LatLng(37.332462,-121.885969));
+					 people.push(new google.maps.LatLng(37.336268,-121.887982));
+
+				for (var i = 0; i < places.length; i++) {
+				// Adding the marker as usual
+				var marker = new google.maps.Marker({
+				position: places[i],
+				map: map,
+				animation: google.maps.Animation.BOUNCE,
+				title: 'Location ' + i
+				
+				});
+			
+				
+					// Wrapping the event listener inside an anonymous function
+					// that we immediately invoke and passes the variable i to.
+					(function(i, marker) {
+					// Creating the event listener. It now has access to the values of
+					// i and marker as they were during its creation
+					google.maps.event.addListener(marker, 'click', function() {
+					var infowindow = new google.maps.InfoWindow({
+					content: 'Event: ' + events[i]
+					});
+					infowindow.open(map, marker);
+					});
+			})(i, marker);
+			}
+				
+				for (var i = 0; i < people.length; i++) {
+					// Adding the marker as usual
+					var ppl = new google.maps.Marker({
+					position: people[i],
+					map: map,
+					title: 'Person ' + i,
+					icon: 'person.gif',
+					animation: google.maps.Animation.DROP
+					});
+									}
+		}
+})();
+
+    </script>
+  </head>
+  <body>
+	<img src="sjsu-logo-select.gif" align= "left" alt="Logo" width="100" height="100">
+    <div style="color:#00248F"; align = "center"> <p> <h1> What's Happening at SJSU! </h1> </p> </div>
+    <marquee style="color:#00248F" behavior="scroll" direction="left">Welcome Student! Top Notifications for the Day: *Code Camp 2013 is here! Register now!!! * Bike@SJSU is a new bike service opened up near the Engg Building * </marquee>
+    <div id="map-canvas"></div>
+    
+  </body>
+</html>
+

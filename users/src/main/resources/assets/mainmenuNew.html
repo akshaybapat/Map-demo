@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SJSU Events Map</title>
+<link href="/maps/documentation/javascript/examples/default.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+  <link rel="stylesheet" href="css/foundation.css">
+    <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>	
+<div class="sticky">
+                <nav class="top-bar">
+                        <ul class="title-area">
+                                <li class="name">
+                                        <h1><a style="color:#0d95ca" href="#">San Jose Event Notification Center</a></h1>
+                                </li>
+                        </ul>
+
+                        <section class="top-bar-section">
+                                <ul class="right">
+                                        <li>
+                                                <a style="color:#0d95ca" href="#" data-reveal-id="event" onclick=createevent()>Create Event</a>
+                                        </li>
+										<li>
+                                                <a style="color:#0d95ca" href="#" data-reveal-id="localsearch" onclick=localsearch()>Local Search</a>
+                                        </li>
+										<li>
+                                                <a style="color:#0d95ca" href="#" data-reveal-id="localsearch" onclick=geolocate()>Where am I</a>
+                                        </li>
+										<li>
+                                                <a style="color:#0d95ca" href="#" data-reveal-id="checkin" onclick=checkin()>Check In </a>
+                                        </li>
+										<li>
+                                                <a style="color:#0d95ca" href="#" data-reveal-id="login" onclick=logout()>Log Out</a>
+                                        </li>
+                                </ul>
+						</section>
+				</nav>
+			</div>
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+   <script>
+		(function() {
+				window.onload = function() {
+						// Creating an object literal containing the properties
+						// we want to pass to the map
+						var options = {
+						zoom: 16,
+						center: new google.maps.LatLng(37.3356, -121.8811),
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+						};
+				// Creating the map
+				var map = new google.maps.Map(document.getElementById('map-canvas'), options);
+				var data;
+				
+			var mkr = new google.maps.Marker({
+    			position: map.getCenter(),
+     			map: map,
+    			 title: 'Click to zoom'
+			 });
+
+			google.maps.event.addListener(map, 'center_changed', function() {
+    			// 3 seconds after the center of the map has changed, pan back to the
+    			// marker.
+  			window.setTimeout(function() {
+  			map.panTo(mkr.getPosition());
+    			}, 3000);
+   			});
+
+					 var url = "/map/v1/events";
+                     var client = new XMLHttpRequest();
+                
+                client.open("GET", url, false);
+                client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
+                client.send();
+                if (client.status == 200)
+                 {
+				  data = JSON.parse(client.responseText);
+				  var output="<ul>";
+				  var places = [];
+				  var events = [];
+				  var details = [];
+				  var date = [];
+				  var time = [];
+                    for (var i in data)
+                     {
+                     output+="<li>" + data[i].eventName + ", " + data[i].latitude + "</li>";
+					 places.push(new google.maps.LatLng(data[i].latitude,data[i].longitude));
+					 events.push(data[i].eventName);
+					 details.push(data[i].eventDescription);
+					 date.push(data[i].eventDate);
+					 time.push(data[i].eventTime);
+                   }
+                     output=output + " " +"</ul>";
+                     console.log(output);
+				     //alert("Done");
+					 
+									
+					 //var people= [];
+					// people.push(new google.maps.LatLng(37.336186,-121.883493));
+					// people.push(new google.maps.LatLng(37.332462,-121.885969));
+					// people.push(new google.maps.LatLng(37.336268,-121.887982));
+					
+								   				   
+				for (var i = 0; i < places.length; i++) {
+				// Adding the marker as usual
+				var marker = new google.maps.Marker({
+				position: places[i],
+				map: map,
+				animation: google.maps.Animation.BOUNCE,
+				title: events[i]
+				
+				});
+			
+				
+					// Wrapping the event listener inside an anonymous function
+					// that we immediately invoke and passes the variable i to.
+					(function(i, marker) {
+					// Creating the event listener. It now has access to the values of
+					// i and marker as they were during its creation
+					google.maps.event.addListener(marker, 'click', function() {
+					var infowindow = new google.maps.InfoWindow({
+					content: 'Event: ' + details[i] + ', Date: ' + date[i] + ', Time: ' + time[i] 
+					});
+					infowindow.open(map, marker);
+					});
+			})(i, marker);
+			}
+				
+				 
+                 }
+                else{
+                 alert("Fail!");
+                }
+				
+				
+				var url2 = "/map/v1/loggedin";
+                 var client2 = new XMLHttpRequest();
+                
+                client2.open("GET", url2, false);
+                client2.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
+                client2.send();
+                if (client2.status == 200)
+                 {
+				  data = JSON.parse(client2.responseText);
+				 
+				  var checkin = [];
+				  var people = [];
+				  var names = [];
+                    for (var i in data)
+                     {
+                     
+					 checkin.push(new google.maps.LatLng(data[i].latitude,data[i].longitude));
+					 people.push(data[i].photoURL);
+					 names.push(data[i].firstName);
+                   }
+
+					
+				for (var i = 0; i < people.length; i++) {
+					// Adding the marker as usual
+					var ppl = new google.maps.Marker({
+					position: checkin[i],
+					map: map,
+					title: names[i],
+					icon: people[i],
+					animation: google.maps.Animation.DROP
+					});
+									}
+		}
+		
+		else{
+                 alert("Fail!");
+                }
+				
+				
+				
+				}
+})();
+
+	function logout()
+	{
+	localStorage.clear();
+	window.location = "login.html";
+	}
+	
+	function checkin()
+	{
+	window.location = "checkIn.html";
+	}
+	
+	function localsearch()
+	{
+	window.location = "search.html";
+	}
+	
+	function createevent()
+	{
+	window.location = "eventRegistration.html";
+	}
+	
+	function geolocate()
+	{
+	window.location = "get-location.html";
+	}
+	
+    </script>
+
+  
+  <script>
+    $(document).foundation();
+  </script>
+   <script src="assets/js/script.js"></script>
+  <img src="sjsu-logo-select.gif" align= "left" alt="Logo" width="100" height="100">
+    <div style="color:#00248F"; align = "center"> <p> <h1> What's Happening at SJSU! </h1> </p> </div>
+    <marquee style="color:#00248F" behavior="scroll" direction="left">Welcome Student! Top Notifications for the Day: *Code Camp 2013 is here! Register now!!! * Bike@SJSU is a new bike service opened up near the Engg Building * </marquee>
+    <div id="map-canvas"></div>
+	<style>
+	body { background:#fff;}
+     #map-canvas
+        {
+        position:absolute;
+        width:800px;
+        height:600px;
+        z-index:15;
+        top:350%;
+        left:50%;
+        margin:-400px 0 0 -400px;
+        }
+</style>
+</body>
+</html>

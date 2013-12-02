@@ -1,14 +1,40 @@
 package edu.sjsu.cmpe.users.domain;
 
-public class EventDetails extends ElementDetails{
+import java.util.UUID;
+
+import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import org.hibernate.validator.constraints.NotBlank;
+
+@JsonIgnoreProperties(ignoreUnknown = true) 
+public class EventDetails {
 	
-	private int eventId;
+	//private int id;
+	@NotBlank
 	private String eventName;
 	private String eventCategory;
 	private String eventDate;
 	private String eventTime;
 	private String eventDescription;
 	private static int num=1;
+	private String latitude;
+	private String longitude;
+	
+	private String _id = UUID.randomUUID().toString();
+	 
+	public EventDetails(String eventName,String eventCategory,String eventDate,String eventTime, String eventDescription, String latitide, String longitude, String latitude) {
+		this.eventName = eventName;
+		this.eventCategory = eventCategory;
+		this.eventDate = eventDate;
+		this.eventTime = eventTime;
+		this.eventDescription = eventDescription;
+		this.latitude = latitude;
+		this.longitude = longitude;
+		
+	}
+	
+	public EventDetails() {
+		
+	}
 	
 	public String getEventName()
 	{
@@ -60,14 +86,25 @@ public class EventDetails extends ElementDetails{
 		this.eventDescription = eventDescription;
 	}
 	
-	public int getEventId()
+	public String getLatitude()
 	{
-		return eventId;
+		return latitude;
 	}
 	
-	public void setEventId(String evenId)
+	public void setLatitude(String latitude)
 	{
-		this.eventId = ++num;
+		this.latitude = latitude;
 	}
+	
+	public String getLongitude()
+	{
+		return longitude;
+	}
+	
+	public void setLongitude(String longitude)
+	{
+		this.longitude = longitude;
+	}
+
 
 }

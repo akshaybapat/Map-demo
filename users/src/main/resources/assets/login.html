@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 
+<html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+
+  
+  <link rel="stylesheet" href="css/foundation.css">
+    <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+	    <div class="sticky">
+                <nav class="top-bar">
+                        <ul class="title-area">
+                                <li class="name">
+                                        <h1><a style="color:#0d95ca" href="#">San Jose Event Notification Center</a></h1>
+                                </li>
+                        </ul>
+                        <section class="top-bar-section">
+                                <ul class="right">
+                                        <li>
+                                                <a style="color:#0d95ca" href="#" data-reveal-id="newAccount" onclick=createuser()>Create Account</a>
+                                        </li>
+                                </ul>
+						</section>
+				</nav>
+			</div>
+	<div class="row">
+		<div class="large-12 columns">
+			<h2></h2>
+			<hr />
+		</div>
+	</div>
+	<div class="row">
+	<div class="left">
+		<img border="0" src="imagecollage.jpg" alt="collage" width="800" height="600">
+		</div>
+		<div class="right">
+		<div class="panel">
+			<div class="row">
+					<p></p>
+						<form id="login" action="#" method="POST">
+						<p>
+						<label for="sjsuId">SJSU ID</label>  
+						<input id="sjsuId" type="sjsuId" name="sjsuId" placeholder="9-Digit SJSU ID" required>
+						</p>
+						<p>
+						<label for="password">Password</label>  
+						<input id="password" type="password" name="password" placeholder="Password" required>
+						</p>
+						<p><a href="#" class="small button" onclick="a()">Login</a></p>
+						</form>
+			</div>
+		</div>
+	</div>
+	</body>
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  
+  function createuser()
+	{
+	window.location = "userRegistration.html";
+	}
+  </script>
+  
+ 
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+  <script>
+    $(document).foundation();
+  </script>
+  <script type="text/javascript">        
+       
+		$.fn.serializeObject = function()
+	{
+		var o = {};
+		var a = this.serializeArray();
+			$.each(a, function() {
+				if (o[this.name] !== undefined) {
+				if (!o[this.name].push){
+					o[this.name] = [o[this.name]];
+				}
+			o[this.name].push(this.value || '');
+			} else {
+					o[this.name] = this.value || '';
+			}
+		});
+			return o;
+	};
+	
+				 
+                 function a(){
+						var jsonData = JSON.stringify($('#login').serializeObject());
+                        
+                       $.ajax( { url: "/map/v1/users/"+$("#sjsuId").val()+"?password="+$("#password").val(),
+                       data: jsonData,
+                       type: "POST",
+                       contentType: "application/json",
+					   success: function(data){
+					   //alert("Data: " + data + "\nStatus: " + data.status);
+					   localStorage.userid = document.getElementById('sjsuId').value;
+					   alert(localStorage.userid);
+					   window.open("mainmenuNew.html");
+					   },
+					   error: function(){
+					   alert("Invalid Username or Password!");
+					   }
+
+						});
+					   
+                };  
+	</script>
+  
+
+</html>

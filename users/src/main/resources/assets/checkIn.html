@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 
+<html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Check In</title>  
+  <link rel="stylesheet" href="css/foundation.css">
+  <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+  
+ <script>
+var geocoder = new google.maps.Geocoder();
+var map;
+var marker;
+
+  
+function geocodePosition(pos) {
+  geocoder.geocode({
+    latLng: pos
+  }, function(responses) {
+    if (responses && responses.length > 0) {
+      updateMarkerAddress(responses[0].formatted_address);
+    } else {
+      updateMarkerAddress('Cannot determine address at this location.');
+    }
+	
+  });
+}
+
+function updateMarkerStatus(str) {
+  document.getElementById('markerStatus').innerHTML = str;
+}
+
+function updateMarkerPosition(latLng) {
+  document.getElementById('info').innerHTML = [
+    latLng.lat(),
+    latLng.lng()
+  ].join(', ');
+	localStorage.latitude = latLng.lat();
+	localStorage.longitude = latLng.lng();
+	//document.getElementById('latitude').value = latLng.lat();
+	//document.getElementById('longitude').value = latLng.lng();
+ 
+}
+
+function updateMarkerAddress(str) {
+  document.getElementById('address').innerHTML = str;
+}
+
+function initialize() {
+	
+ 
+  var latLng = new google.maps.LatLng(37.336122, -121.880465);
+ 
+  map = new google.maps.Map(document.getElementById('mapCanvas'), {
+    zoom: 16,
+    center: latLng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+  /*
+  marker = new google.maps.Marker({
+    position: latLng,
+    title: 'You',
+    map: map,
+    draggable: true
+  });
+  */
+  
+  
+				var url2 = "/map/v1/users/" + localStorage.userid ;
+                 var client2 = new XMLHttpRequest();
+                
+                client2.open("GET", url2, false);
+                client2.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
+                client2.send();
+                if (client2.status == 200)
+                 {
+				  data = JSON.parse(client2.responseText);
+				  
+				  localStorage.firstName = data[0].firstName;
+				  localStorage.lastName = data[0].lastName;
+				  localStorage.phoneNumber = data[0].phoneNumber;
+				  localStorage.photoURL  = data[0].photoURL;
+				//console.log($('#sjsuId').value +","+ $('#firstName').value+","+ $('#lastName').value+","+$('#phoneNumber').value+","+ $('#photoURL').value) ;
+				marker = new google.maps.Marker({
+				position: latLng,
+				title: 'You',
+				map: map,
+				icon: data[0].photoURL,
+				draggable: true
+				});
+		}
+		
+		else{
+                 alert("Fail!");
+				 
+				 marker = new google.maps.Marker({
+				position: latLng,
+				title: 'You',
+				map: map,
+				draggable: true
+                });
+				
+							
+				}
+	
+  
+  // Update current position info.
+  updateMarkerPosition(latLng);
+  geocodePosition(latLng);
+  
+  // Add dragging event listeners.
+  google.maps.event.addListener(marker, 'dragstart', function() {
+    updateMarkerAddress('Dragging...');
+  });
+  
+  google.maps.event.addListener(marker, 'drag', function() {
+    updateMarkerStatus('Dragging...');
+    updateMarkerPosition(marker.getPosition());
+  });
+  
+  google.maps.event.addListener(marker, 'dragend', function() {
+    updateMarkerStatus('Drag ended');
+    geocodePosition(marker.getPosition());
+	//alert(text.marker.getPosition());
+
+			var url = "/map/v1/events";
+            var client = new XMLHttpRequest();
+                
+                client.open("GET", url, false);
+                client.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
+                client.send();
+				if (client.status == 200)
+                 {
+				   var events = [];
+				   var places = [];
+                   var lat = [];
+                   var lon = [];
+				   var notifications = "Events nearby: ";
+				  data = JSON.parse(client.responseText);
+				  var output="<ul>";
+				  var count = 0;
+				  
+				  
+                    for (var i in data)
+                     {
+                     output+="<li>" + data[i].eventName + ", " +"</li>";
+					 events.push(data[i].eventName);
+					 lat.push(data[i].latitude);
+					 lon.push(data[i].longitude);
+					 console.log(events[i],lat[i],lon[i]);
+					 console.log();
+					 }
+				   }
+                     output=output + " " +"</ul>";
+                     console.log(output);
+		
+	
+	
+	
+	for(var i=0;i<events.length;i++)
+	{
+	
+	var distance = getDistanceFromLatLonInKm(marker.getPosition().lat(),marker.getPosition().lng(),lat[i],lon[i]);
+	console.log(distance);
+	if (distance < 100) { notifications = notifications + events[i] + ", "; count++; }
+	}
+	
+	if(count > 0) 
+	{
+	//var message = JSON.stringify({contacts : localStorage.phoneNumber, text : notifications });
+	//alert(message);
+			var murl = "/map/v1/users/message?mess="+notifications;
+            var mclient = new XMLHttpRequest();
+                
+                mclient.open("POST", murl, false);
+                mclient.setRequestHeader("Content-Type", "application/json"); //this will also change to JSON
+                mclient.send();
+	
+	}
+	
+	
+  });
+  
+  function getDistanceFromLatLonInKm(lat1,lon1,lat2,lon2) {
+  var R = 6371; // Radius of the earth in km
+  var dLat = deg2rad(lat2-lat1);  // deg2rad below
+  var dLon = deg2rad(lon2-lon1); 
+  var a = 
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * 
+    Math.sin(dLon/2) * Math.sin(dLon/2)
+    ; 
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); 
+  var d = R * c * 1000; // Distance in metres
+  return d;
+}
+
+	function deg2rad(deg) {
+	return deg * (Math.PI/180);
+							}
+  
+		
+					 
+					
+  
+  
+}
+
+// Onload handler to fire off the app.
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+</head>
+<body>
+<div class="sticky">
+                <nav class="top-bar">
+                        <ul class="title-area">
+                                <li class="name">
+                                        <h1><a style="color:#0d95ca" href="#">San Jose Event Notification Center</a></h1>
+                                </li>
+                        </ul>
+                        <section class="top-bar-section">
+						<ul class="right">
+                                        <li>
+                                                <a style="color:#0d95ca" href="#" data-reveal-id="Home" onclick=home()>Home</a>
+                                        </li>
+										 <li>
+                                                <a style="color:#0d95ca" href="#" data-reveal-id="Logout" onclick=logout()>Logout</a>
+                                        </li>
+                                </ul>
+                              
+						</section>
+				</nav>
+</div>
+	<div class="row">
+		<div class="large-12 columns">
+			<h2>Broadcast your location</h2>			
+			<form id="checkIn" action="#" method="POST">
+			<div id="map-canvas"></div>
+									  <style>
+										#mapCanvas {
+										width: 640px;
+										height: 400px;
+										float: left;
+										}
+										#infoPanel {
+										float: left;
+										margin-left: 10px;
+										}
+										#infoPanel div {
+										margin-bottom: 3px;
+										}
+									</style>
+						<input type="hidden" id="sjsuID" name="sjsuID" ><br>	
+						<input type="hidden" id="firstName" name="firstName"><br>	
+						<input type="hidden" id="lastName" name="lastName"><br>	
+						<input type="hidden" id="phoneNumber" name="phoneNumber"><br>
+						<input type="hidden" id="latitude" name="latitude"><br>
+						<input type="hidden" id="longitude" name="longitude"><br>
+						<input type="hidden" id="photoURL" name="photoURL"><br>
+						<p><a href="#" class="small button" onClick="a()">Check In</a></p>	
+			</form>
+			<hr />
+		</div>
+	</div>
+			<!-- Grid Example -->				
+			 <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script> 
+  
+   <script type="text/javascript">	
+	$.fn.serializeObject = function()
+	{
+		var o = {};
+		var a = this.serializeArray();
+			$.each(a, function() {
+				if (o[this.name] !== undefined) {
+				if (!o[this.name].push){
+					o[this.name] = [o[this.name]];
+				}
+			o[this.name].push(this.value || '');
+			} else {
+					o[this.name] = this.value || '';
+			}
+		});
+			return o;
+	};
+
+	
+	
+	function a(){
+		
+			var url = '/map/v1/loggedin';
+			$('#sjsuId').value = localStorage.userid;
+			$('#firstName').value = localStorage.firstName;
+			$('#lastName').value = localStorage.lastName;
+			$('#phoneNumber').value = localStorage.phoneNumber;
+			$('#photoURL').value = localStorage.photoURL;
+			var jsonData = JSON.stringify({sjsuId : localStorage.userid, firstName : localStorage.firstName, lastName: localStorage.lastName, phoneNumber : localStorage.phoneNumber, photoURL : localStorage.photoURL, latitude : localStorage.latitude, longitude : localStorage.longitude });   
+			alert(jsonData);
+		    //var jsonData = JSON.stringify($('#checkIn').serializeObject()) 
+			<!-- $.post("https://api.mongolab.com/api/1/databases/eventdata/collections/testcol?apiKey=YpsnQ_SarNQSimcgDiH7j8fGxTPCskYB",	jsonData,	function(data,status){alert("Data: " + data + "\nStatus: " + status);}); -->
+			$.ajax({
+						url:"map/v1/loggedin/"+ localStorage.userid,
+						type:"POST",
+						data:jsonData,
+						contentType:"application/json; charset=utf-8",
+						dataType:"json",
+						success: function(){
+						alert("Data: " + data + "\nStatus: " + status);
+					    }
+})
+		$('#result').text(JSON.stringify($('checkIn').serializeObject()));
+		    alert(jsonData);
+};
+
+	function home()
+	{
+	window.location = "mainmenuNew.html";
+	}
+	
+	function createevent()
+	{
+	window.location = "eventRegistration.html";
+	}
+	
+	function logout()
+	{
+	localStorage.clear();
+	window.location = "login.html";
+	}
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+<script>
+    $(document).foundation();
+  </script>
+   <div id="mapCanvas"></div>
+    <div id="infoPanel">
+    <b>Marker status:</b>
+    <div id="markerStatus"><i>Click and drag the marker.</i></div>
+    <b>Current position:</b>
+    <div id="info"></div>
+    <b>Address:</b>
+    <div id="address"></div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+$.ajax({
+    	    url: "/events",
+    	    type: 'GET',
+    	    contentType: 'application/json',
+    	    success: function(result) 
+    	    {
+    	          var places[];
+    	          places.push(result);
+    	          var marker = new google.maps.Marker({
+    					position: places[i],
+    					map: map,
+    					animation: google.maps.Animation.BOUNCE,
+    					title: 'Location ' + i
+    					});
+    	    }
+    	});
+
+$.ajax({
+    	    url: "/users",
+    	    type: 'GET',
+    	    contentType: 'application/json',
+    	    success: function(result) 
+    	    {
+    	          var users[];
+    	          users.push(result)
+    	          var marker = new google.maps.Marker({
+    					position: users[i],
+    					map: map,
+    					animation: google.maps.Animation.BOUNCE,
+    					title: 'Location ' + i
+    					});
+    	    }
+    	});
+});
