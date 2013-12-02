@@ -7,7 +7,6 @@ import net.vz.mongodb.jackson.JacksonDBCollection;
 
 import com.mongodb.DB;
 import com.mongodb.Mongo;
-import com.sun.jersey.api.client.Client;
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.assets.AssetsBundle;
 import com.yammer.dropwizard.config.Environment;
